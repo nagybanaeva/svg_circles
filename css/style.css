@@ -1,0 +1,26 @@
+.first{
+    animation-name: colorchange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes colorchange {
+    0% {fill: red;}
+    50% {fill:yellow;}
+    100% {fill: green;}
+}
+
+
+.second{
+    animation-name: colorchangeOther;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes colorchangeOther {
+    0% {fill: green;}
+    50% {fill:yellow;}
+    100% {fill: red;}
+}
